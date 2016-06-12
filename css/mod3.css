@@ -1,0 +1,88 @@
+.navbar-default .navbar-nav li {
+	text-align: center;
+}
+
+#header-nav{
+	background-color:#900;
+	border-radius:0;
+	border:0;
+}
+.navbar-brand{
+	padding-top:15px;
+}
+
+.navbar-brand a{
+	margin:10px;
+	text-decoration:none;
+	color:#000;
+	text-shadow: 2px 2px #FF0;
+	font-size:32px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bolder;
+}
+
+.navbar-brand a:hover, navbar-brand a:focus{
+	margin:10px;
+	text-decoration:none;
+	color:#FFF;
+	text-shadow: 2px 2px #FF0;
+}
+
+/*border color of menu button*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #903;
+}
+
+/*menu background color*/
+#nav-list{
+	background-color:#FAFFB9;
+}
+
+#nav-list a{
+	color:#000;
+	font-size:18px;
+}
+#nav-list a:hover{
+	color:#FFF;
+	background-color:#006;
+}
+
+#main-content {
+	position: relative;
+}
+.content{
+	/*height:750px;*/
+	background-color:#FFC;
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.2em;
+}
+
+
+h1{color:#006; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:36px;font-weight:bolder;
+text-shadow:4px 2px #CCCCCC;}
+
+h2{color:#E12D00; font-family:Georgia, "Times New Roman", Times, serif;}
+
+h4{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding-top:20px;
+	padding-bottom:40px;
+	text-align:right;
+	font-weight:bolder;
+}
+
+h4 a{
+	color:#009;
+	text-decoration:none;
+}
+
+h4 a:hover, h3 a:focus{
+	color:#000;
+	text-shadow: 2px 2px #CCCCCC;
+	text-decoration:none;
+}
